@@ -1,0 +1,79 @@
+html {
+  text-align: center;
+  background: url(hackathon_facebook.jpg) center no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  font-family: 'Josefin Slab', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  margin: 0;
+  margin-bottom: 10%;
+  transition: 1.0s;
+  padding: 50px;
+}
+
+#clockdiv{
+  margin-top: 10%;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 25px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.6);//#00BF96;
+    display: inline-block;
+    margin: 10px; 
+}
+
+#clockdiv div > span{
+    padding: 25px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.heart {
+  color: red;
+  animation-duration: 1.2s;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  //animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  width: 50px !important;
+  display: inline-block;
+}
+
+@keyframes changewidth {
+  0%   {font-size: 65%;}
+  25%  {font-size: 85%;}
+  50%  {font-size: 75%;}
+  75%   {font-size: 85%;}
+  100% {font-size: 65%;}
+
+
+}
