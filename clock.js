@@ -1,4 +1,4 @@
-var deadlineTimestamp = 1459594800000;
+var deadlineTimestamp = 1459591200000;
 
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
