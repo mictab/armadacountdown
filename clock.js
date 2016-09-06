@@ -1,4 +1,5 @@
-var deadlineTimestamp = 1459594800000;
+// First Armada event
+var deadlineTimestamp = 1478505600000;
 
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
