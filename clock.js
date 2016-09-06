@@ -1,4 +1,5 @@
-var deadlineTimestamp = 1459591200000;
+// First Armada event
+var deadlineTimestamp = 1478505600000;
 
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -40,4 +41,4 @@ function initializeClock(id, endtime) {
 }
 
 var deadline = new Date(deadlineTimestamp);
-//initializeClock('clockdiv', deadline);
+initializeClock('clockdiv', deadline);
